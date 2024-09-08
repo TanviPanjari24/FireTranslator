@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Translator</string>
+    <string name="contact_us">Contact</string>
+    <string name="categories">Categories</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="privacy">Privacy</string>
+    <string name="home">Home</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="fireTransltor">Fire Translator</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate Us</string>
+    <string name="first_slide_desc">Select both Source and Target Language and enter the Text.</string>
+    <string name="first_slide_title">Language Translator</string>
+    <string name="skip_btn">Skip</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="second_slide_title">Language Translator</string>
+    <string name="third_slide_title">Language Translator</string>
+    <string name="fourth_slide_title">Language Translator</string>
+    <string name="second_slide_desc">Wait to Download the model and translation is done.</string>
+    <string name="third_slide_desc">Enter your Speech by using microphone and select the language to translate.</string>
+    <string name="fourth_slide_desc">Happy Learning!!</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_login" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="?actionBarSize"
+            android:fontFamily="@font/aclonica"
+            android:text="SIGN IN"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/LEmail"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/alef"
+            android:hint="Email"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#03045e"
+            android:textColorHint="#1e6091"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/LPassword"
+            android:textColor="#03045e"
+            android:textColorHint="#1e6091"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/alef"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/LButton"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/round_corner_buttom"
+            android:text="sign in"
+            android:fontFamily="@font/della_respira"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+        <TextView
+            android:id="@+id/RButton"
+            android:layout_marginTop="20dp"
+            android:textColor="#003459"
+            android:text="New User? Register Now"
+            android:fontFamily="@font/della_respira"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+
+
+
+        <item
+            android:id="@+id/nav_policy"
+            android:title="@string/privacy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"/>
+        <item
+            android:id="@+id/nav_terms"
+            android:title="@string/terms"
+            android:icon="@drawable/termsc"/>
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about"
+            android:icon="@drawable/ic_baseline_info_24"/>
+        <item
+            android:id="@+id/nav_share"
+            android:title="@string/share"
+            android:icon="@drawable/sharebtn"/>
+
+        <item
+            android:id="@+id/nav_rate"
+            android:title="@string/rate"
+            android:icon="@drawable/star_rate"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout"
+            android:icon="@drawable/ic_baseline_logout_24"/>
+
+
+    </group>
+
+
+</menu>
